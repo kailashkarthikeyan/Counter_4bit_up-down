@@ -56,7 +56,7 @@ Functional Simulation:
 (Note : File name should be with HDL Extension)
 
 ### Verilog code for 4-Bit Up-Down Counter:
-````timescale 1ns / 1 ns
+```timescale 1ns / 1 ns
 module counter(clk,m,rst,count);
 input clk,m,rst;
 output reg [3:0] count;
@@ -82,7 +82,7 @@ endmodule ```
 ### Test-bench code for 4-Bit Up-Down Counter:
 
 
-````timescale 1ns / 1ns
+``` timescale 1ns / 1ns
 module counter_test;
 reg clk,rst,m;
 wire [3:0] count;
