@@ -102,7 +102,7 @@ always #5 clk=~clk;
 initial $monitor("Time=%t rst=%b clk=%b count=%b" , $time,rst,clk,count);
 initial
 #320 $finish;
-endmodule```
+endmodule ```
 
 ### To Launch Simulation tool
 	linux:/> nclaunch -new&            // “-new” option is used for invoking NCVERILOG for the first time for any design
