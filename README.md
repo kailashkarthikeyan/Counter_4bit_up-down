@@ -132,6 +132,8 @@ Click the cds.lib file and save the file by clicking on Save option
 
 	We are simulating verilog design without using any libraries
 
+![image](https://github.com/user-attachments/assets/a0f3f1ee-6a52-4400-8bc1-346fc7bb1cf9)
+
 ## Fig 5: Selection of Don’t include any libraries
 
 	A Click “OK” in the “nclaunch: Open Design Directory” window
