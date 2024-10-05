@@ -56,7 +56,8 @@ Functional Simulation:
 (Note : File name should be with HDL Extension)
 
 ### Verilog code for 4-Bit Up-Down Counter:
-``` timescale 1ns / 1 ns
+```
+timescale 1ns / 1 ns
 module counter(clk,m,rst,count);
 input clk,m,rst;
 output reg [3:0] count;
@@ -69,7 +70,9 @@ count=count+1;
 else
 count=count-1;
 end
-endmodule ```
+endmodule
+```
+
 
 
 
@@ -80,9 +83,8 @@ endmodule ```
 	Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (4bitup_down_count_tb.v).
 
 ### Test-bench code for 4-Bit Up-Down Counter:
-
 ```
- timescale 1ns / 1ns
+timescale 1ns / 1ns
 module counter_test;
 reg clk,rst,m;
 wire [3:0] count;
@@ -102,8 +104,8 @@ always #5 clk=~clk;
 initial $monitor("Time=%t rst=%b clk=%b count=%b" , $time,rst,clk,count);
 initial
 #320 $finish;
-endmodule ```
-
+endmodule
+```
 
 ### To Launch Simulation tool
 	linux:/> nclaunch -new&            // “-new” option is used for invoking NCVERILOG for the first time for any design
